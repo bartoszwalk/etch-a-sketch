@@ -1,8 +1,10 @@
-.body {
+body {
     display: flex;
+    font-family: 'Indie Flower', cursive;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
-    border: 0;
+    min-height: 100vh;
+
 }
 
 .header,
@@ -12,20 +14,23 @@
 .grid {
     display: flex;
 
+
 }
 
 .header {
-    height: 72px;
+    height: 80px;
     background-color: #9ED2C6;
     align-items: center;
     justify-content: center;
+    font-size: 48px;
 }
 
 .footer {
-    height: 72px;
+    height: 80px;
     background-color: #E9DAC1;
     align-items: center;
     justify-content: center;
+    font-size: 24px;
 }
 
 .mainContainer {
@@ -33,7 +38,9 @@
     background-color: #F7ECDE;
     align-items: center;
     padding: 50px 0;
-    gap: 20px;
+    gap: 15px;
+    font-size: 24px;
+    flex-grow: 1;
 }
 
 .grid {
@@ -51,4 +58,14 @@
     justify-content: center;
     align-items: center;
     height: 100pxs;
+}
+
+.slider {
+    height: 50px;
+    width: 750px;
+    background-color: #E9DAC1;
+}
+
+.gridSize {
+    font-weight: bold;
 }
